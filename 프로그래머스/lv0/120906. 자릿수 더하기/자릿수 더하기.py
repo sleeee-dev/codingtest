@@ -1,6 +1,5 @@
 def solution(n):
-    N = [int(i) for i in str(n)]
-    return sum(N)
+    return sum(int(i) for i in str(n))
 
 
     # 처음 풀이
